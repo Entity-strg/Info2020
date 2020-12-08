@@ -10,7 +10,7 @@ public class Vertex {
 		this.y = y;
 	}
 
-	puplic String toString() {
+	public String toString() {
 		return "("+x+","+y+")";
 		
 	}
