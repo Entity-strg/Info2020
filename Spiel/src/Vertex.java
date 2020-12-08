@@ -9,6 +9,13 @@ public class Vertex {
 		this.x = x;
 		this.y = y;
 	}
+	
+	
+	public double length() {
+		return Math.sqrt(x*x+y*y);
+		
+	}
+	
 
 	public String toString() {
 		return "("+x+","+y+")";
