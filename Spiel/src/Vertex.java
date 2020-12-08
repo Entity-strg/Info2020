@@ -16,6 +16,14 @@ public class Vertex {
 		
 	}
 	
+	
+	public Vertex skalarMult(double s) {
+		
+		return new Vertex(x * s, y * s);
+		
+	}
+	
+	
 
 	public String toString() {
 		return "("+x+","+y+")";
